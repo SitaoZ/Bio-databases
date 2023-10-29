@@ -43,6 +43,9 @@ STUDY with accessions in the form of SRP, ERP, or DRP
 SAMPLE with accessions in the form of SRS, ERS, or DRS
 EXPERIMENT with accessions in the form of SRX, ERX, or DRX
 RUN with accessions in the form of SRR, ERR, or DRR
+
+## The fastq-dump command will only download the fastq version of the SRR, given the SRR number and an internet connection
+$ fastq-dump SRR1013512
 ```
 
 [HBCtraining](https://github.com/hbctraining/Accessing_public_genomic_data/blob/master/lessons/downloading_from_SRA.md)
