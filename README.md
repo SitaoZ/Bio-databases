@@ -32,16 +32,17 @@ https://genome.ucsc.edu/goldenpath/help/ftp.html
 ftp://ftp.ncbi.nlm.nih.gov/geo/
 ```bash
 $ wget --recursive --no-parent -nd ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50499/suppl/
- $ wget -r -np -nd -R "index.html*" ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50499/suppl/
+$ wget -r -np -nd -R "index.html*" ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50499/suppl/
 ```
 
 ## Sequence Read Archive
-There are four hierarchical levels of SRA entities and their accessions:
 
+```bash
+# There are four hierarchical levels of SRA entities and their accessions:
 STUDY with accessions in the form of SRP, ERP, or DRP
 SAMPLE with accessions in the form of SRS, ERS, or DRS
 EXPERIMENT with accessions in the form of SRX, ERX, or DRX
 RUN with accessions in the form of SRR, ERR, or DRR
-
+```
 
 [HBCtraining](https://github.com/hbctraining/Accessing_public_genomic_data/blob/master/lessons/downloading_from_SRA.md)
