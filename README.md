@@ -26,15 +26,31 @@ ENSDARG###: DAR (Danio rerio) for zebrafish
 2. NCBI
 https://www.ncbi.nlm.nih.gov/home/download/
 
+2.1 GeneBank
 ```bash
 GCA for GenBank assemblies
 GCF for RefSeq assemblies
 GCA(or GCF) is followed by an underscore and 9 digits.
 GRCh38.p11 is GCA_000001405.26
+```
 
+2.2 BioProject
+
+```bash
+$ wget https://ftp.ncbi.nlm.nih.gov/bioproject/summary.txt
+$ cat summary.txt | awk -F "\t" '{print $3}' | sed -E 's/[0-9]+//g' | sort | uniq -c
+292 PRJDA
+12933 PRJDB
+497 PRJEA
+57137 PRJEB
+658381 PRJNA
+1 Project Accession
 ```
 **PRJNA** stands for "Project accession number" in NCBI.  
-
+**PRJEB** stands for "European Bioinformatics Institute (EBI) Project Accession" and is specifically used to identify projects hosted by the EBI.   
+**PRJEA** stands for "European Nucleotide Archive (ENA) Project Accession".    
+**PRJDB** stands for "DNA Data Bank of Japan (DDBJ) Project Accession" and is specific to projects hosted by the DDBJ.    
+**PRJDA** stands for "DNA Data Archive (DRA) Project Accession" and is used to identify projects hosted by the DRA.The DRA is an archive maintained by the National Bioscience Database Center (NBDC) in Japan and is part of the SRA consortium.    
 
 4. UCSC
 https://genome.ucsc.edu/goldenpath/help/ftp.html
