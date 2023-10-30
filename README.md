@@ -25,7 +25,15 @@ ENSDARG###: DAR (Danio rerio) for zebrafish
 ```
 2. NCBI
 https://www.ncbi.nlm.nih.gov/home/download/
-3. UCSC
+
+```bash
+GCA for GenBank assemblies
+GCF for RefSeq assemblies
+GCA(or GCF) is followed by an underscore and 9 digits.
+GRCh38.p11 is GCA_000001405.26
+
+```
+4. UCSC
 https://genome.ucsc.edu/goldenpath/help/ftp.html
 
 ## Gene Expression Omnibus (GEO)
