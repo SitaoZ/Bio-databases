@@ -33,6 +33,9 @@ GCA(or GCF) is followed by an underscore and 9 digits.
 GRCh38.p11 is GCA_000001405.26
 
 ```
+**PRJNA** stands for "Project accession number" in NCBI.  
+
+
 4. UCSC
 https://genome.ucsc.edu/goldenpath/help/ftp.html
 
