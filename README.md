@@ -26,12 +26,12 @@ ENSDARG###: DAR (Danio rerio) for zebrafish
 2. NCBI
 https://www.ncbi.nlm.nih.gov/home/download/
 
-2.1 GeneBank
-**GCA** for GenBank assemblies
-**GCF** for RefSeq assemblies
-GCA(or GCF) is followed by an underscore and 9 digits. GRCh38.p11 is GCA_000001405.26.     
+  2.1 GeneBank
+**GCA** for GenBank assemblies   
+**GCF** for RefSeq assemblies   
+GCA(or GCF) is followed by an underscore and 9 digits. GRCh38.p11 is GCA_000001405.26.      
 
-2.2 BioProject
+  2.2 BioProject
 
 ```bash
 $ wget https://ftp.ncbi.nlm.nih.gov/bioproject/summary.txt
