@@ -13,10 +13,10 @@ Reference data collections: Illumina's iGenomes, one location to access genome r
 Ensembl identifiers
 When using Ensembl, note that it uses the following format for biological identifiers:
 
-ENSG###########: Ensembl Gene ID
-ENST###########: Ensembl Transcript ID
-ENSP###########: Ensembl Peptide ID
-ENSE###########: Ensembl Exon ID
+ENS**G**###########: Ensembl Gene ID
+ENS**T**###########: Ensembl Transcript ID
+ENS**P**###########: Ensembl Peptide ID
+ENS**E**###########: Ensembl Exon ID
 For non-human species a suffix is added:
 
 ENSMUSG###: MUS (Mus musculus) for mouse
