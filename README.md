@@ -12,8 +12,9 @@ Reference data collections: Illumina's iGenomes, one location to access genome r
 ```bash 
 Ensembl identifiers
 When using Ensembl, note that it uses the following format for biological identifiers:
-
-ENS**G**###########: Ensembl Gene ID
+bold=$(tput bold)
+normal=$(tput sgr0)
+ENS${bold}G${normal}###########: Ensembl Gene ID
 ENS**T**###########: Ensembl Transcript ID
 ENS**P**###########: Ensembl Peptide ID
 ENS**E**###########: Ensembl Exon ID
