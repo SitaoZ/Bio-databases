@@ -9,6 +9,8 @@ Organism-specific biological databases: Wormbase, Flybase, TAIR etc. (often upda
 Reference data collections: Illumina's iGenomes, one location to access genome reference data from Ensembl, UCSC and NCBI
 
 1. Ensembl
+
+
 ```bash 
 Ensembl identifiers
 When using Ensembl, note that it uses the following format for biological identifiers:
@@ -21,6 +23,26 @@ For non-human species a suffix is added:
 
 ENSMUSG###: MUS (Mus musculus) for mouse
 ENSDARG###: DAR (Danio rerio) for zebrafish
+
+```
+
+```bash
+human genome assemblies
+GRCh38 (aka hg38)
+many rare/private alleles replaced
+www.ensembl.org
+Most up-to-date and supported
+
+GRCh37 (aka hg19)
+Some large gaps
+grch37.ensembl.org
+Limited data and software updates
+Still the preferred genome of the clinical community
+
+NCB136 (aka hg18)
+many gaps
+ncbi36.ensembl.org
+No longer updated
 
 ```
 2. NCBI
