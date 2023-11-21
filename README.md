@@ -96,3 +96,14 @@ $ fastq-dump SRR1013512
 ```
 
 [HBCtraining](https://github.com/hbctraining/Accessing_public_genomic_data/blob/master/lessons/downloading_from_SRA.md)
+
+
+## dbSNP
+[snp of ncbi](https://www.ncbi.nlm.nih.gov/snp/)
+
+```bash
+rsid (reference SNP)
+dbSNP Reference SNP (rs or RefSNP) number is a locus accession for a variant type assigned by dbSNP
+```
+download path : https://ftp.ncbi.nih.gov/snp/latest_release/VCF   
+web search: https://www.ncbi.nlm.nih.gov/snp/rs328   
