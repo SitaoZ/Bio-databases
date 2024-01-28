@@ -107,3 +107,16 @@ dbSNP Reference SNP (rs or RefSNP) number is a locus accession for a variant typ
 ```
 download path : https://ftp.ncbi.nih.gov/snp/latest_release/VCF   
 web search: https://www.ncbi.nlm.nih.gov/snp/rs328   
+
+## lncRNA 
+长链非编码RNA [LNCipedia](https://lncipedia.org/)
+LNCipedia数据库注释的是human基因组，目前版本包括 127,802 transcripts 和 56,946 genes。
+```bash
+$ less -S lncipedia_5_2_hg38.gtf | cut -f 9 | grep -v "^#" | awk -F ";" '{print $1}' | grep gene_id | awk -F " " '{print $2}' | sort | uniq | wc
+   56946   56946  704558
+(base) [09:34:00] zhusitao zhusitaodeMacBook-Air ~/Downloads 
+$ less -S lncipedia_5_2_hg38.gtf
+(base) [09:34:12] zhusitao zhusitaodeMacBook-Air ~/Downloads 
+$ less -S lncipedia_5_2_hg38.gtf | cut -f 9 | grep -v "^#" | awk -F ";" '{print $2}' | grep transcript_id | awk -F " " '{print $2}' | sort | uniq | wc
+  127802  127802 1800082
+```
