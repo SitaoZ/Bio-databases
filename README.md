@@ -75,6 +75,12 @@ $ cat summary.txt | awk -F "\t" '{print $3}' | sed -E 's/[0-9]+//g' | sort | uni
 加州大学圣克鲁兹分校基因组数据库
 https://genome.ucsc.edu/goldenpath/help/ftp.html
 
+### 1.4 CNGB
+国家基因库
+```bash
+$ wget -c -nH -np -r -R "index.html*" --cut-dirs 4 ftp://ftp.cngb.org/pub/CNSA/data1/CNP0000405/CNS0064392/
+```
+
 ## 2 Gene Expression Omnibus (GEO)
 ftp://ftp.ncbi.nlm.nih.gov/geo/
 ```bash
