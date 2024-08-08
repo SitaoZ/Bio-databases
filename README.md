@@ -71,6 +71,19 @@ $ cat summary.txt | awk -F "\t" '{print $3}' | sed -E 's/[0-9]+//g' | sort | uni
 **PRJDB** stands for "DNA Data Bank of Japan (DDBJ) Project Accession" and is specific to projects hosted by the DDBJ.    
 **PRJDA** stands for "DNA Data Archive (DRA) Project Accession" and is used to identify projects hosted by the DRA.The DRA is an archive maintained by the National Bioscience Database Center (NBDC) in Japan and is part of the SRA consortium.    
 
+
+####  1.2.3 Blast
+
+```bash
+$ nr.gz 非冗余蛋白数据库,来源于Swisprot,PIR,PDF,PDB和RefSeq
+$ nt.gz 核酸数据库,来源于GeneBank, EMBL, DDBJ.部分非冗余.
+$ # BLAST+程序包，提供了一个脚本update_blastdb.pl可以很方便的进行本地化下载blast数据库
+$ perl update_blastdb.pl # 可以很方便的查看有哪些数据库支持下载
+
+$ nohup perl update_blastdb.pl --decompress nt &> update.log & # 后台下载，支持断点续传
+```
+
+
 ### 1.3 UCSC
 加州大学圣克鲁兹分校基因组数据库
 https://genome.ucsc.edu/goldenpath/help/ftp.html
