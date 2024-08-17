@@ -94,6 +94,38 @@ https://genome.ucsc.edu/goldenpath/help/ftp.html
 $ wget -c -nH -np -r -R "index.html*" --cut-dirs 4 ftp://ftp.cngb.org/pub/CNSA/data1/CNP0000405/CNS0064392/
 ```
 
+### 1.4 GATK broad institute
+- hg19
+```bash
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/*.gz # 一次性全部下载
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/1000G_omni2.5.hg19.sites.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/1000G_omni2.5.hg19.sites.vcf.idx.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/1000G_phase1.indels.hg19.sites.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/1000G_phase1.indels.hg19.sites.vcf.idx.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/1000G_phase1.snps.high_confidence.hg19.sites.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/1000G_phase1.snps.high_confidence.hg19.sites.vcf.idx.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/CEUTrio.HiSeq.WGS.b37.bestPractices.hg19.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/CEUTrio.HiSeq.WGS.b37.bestPractices.hg19.vcf.idx.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/dbsnp_138.hg19.excluding_sites_after_129.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/dbsnp_138.hg19.excluding_sites_after_129.vcf.idx.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/dbsnp_138.hg19.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/dbsnp_138.hg19.vcf.idx.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/hapmap_3.3_hg19_pop_stratified_af.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/hapmap_3.3.hg19.sites.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/hapmap_3.3.hg19.sites.vcf.idx.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf.idx.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/NA12878.HiSeq.WGS.bwa.cleaned.raw.subset.hg19.sites.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/NA12878.HiSeq.WGS.bwa.cleaned.raw.subset.hg19.sites.vcf.idx.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/NA12878.HiSeq.WGS.bwa.cleaned.raw.subset.hg19.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/NA12878.HiSeq.WGS.bwa.cleaned.raw.subset.hg19.vcf.idx.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/NA12878.knowledgebase.snapshot.20131119.hg19.vcf.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/NA12878.knowledgebase.snapshot.20131119.hg19.vcf.idx.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.dict.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.fai.gz
+$ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/ucsc.hg19.fasta.gz
+```
+
 ## 2 Gene Expression Omnibus (GEO)
 ftp://ftp.ncbi.nlm.nih.gov/geo/
 ```bash
