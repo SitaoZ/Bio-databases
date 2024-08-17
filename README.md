@@ -94,7 +94,7 @@ https://genome.ucsc.edu/goldenpath/help/ftp.html
 $ wget -c -nH -np -r -R "index.html*" --cut-dirs 4 ftp://ftp.cngb.org/pub/CNSA/data1/CNP0000405/CNS0064392/
 ```
 
-### 1.4 GATK broad institute
+### 1.5 GATK broad institute
 - hg19
 ```bash
 $ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg19/*.gz # 一次性全部下载
@@ -142,6 +142,41 @@ $ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg38/hapmap_3.3.h
 $ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg38/Homo_sapiens_assembly38.fasta.gz
 $ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg38/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz
 ```
+
+### 1.6 Human reference data
+
+#### CHM13
+目前最新的T2T基因组
+- URL: https://github.com/marbl/CHM13
+- CONTENTS: chr1-22(CHM13),chrX(CHM13),chrY(NA24385),chrM(CHM13)
+- CITATION : Nurk, S., Koren, S., Rhie, A., Rautiainen, M., Bzikadze, A. V., Mikheenko, A., ... & Phillippy, A. M. (2022). The complete sequence of a human genome. Science, 376(6588), 44-53.
+
+- GRCh39
+```bash
+
+```
+- GRCh38
+
+- hg38
+
+- CRCh37
+
+- hg19
+
+- hs37d5
+
+- humanG1Kv37
+
+- b37
+
+- Human pangenome reference consortium
+
+- 1000 Genome Project 30X high coverage (hg38)
+
+- 1000 Genome Project Phase 3 (hg19)
+
+- HAPMAP3
+
 
 ## 2 Gene Expression Omnibus (GEO)
 ftp://ftp.ncbi.nlm.nih.gov/geo/
