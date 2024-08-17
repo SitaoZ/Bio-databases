@@ -151,31 +151,31 @@ $ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg38/Mills_and_10
 - CONTENTS: chr1-22(CHM13),chrX(CHM13),chrY(NA24385),chrM(CHM13)
 - CITATION : Nurk, S., Koren, S., Rhie, A., Rautiainen, M., Bzikadze, A. V., Mikheenko, A., ... & Phillippy, A. M. (2022). The complete sequence of a human genome. Science, 376(6588), 44-53.
 
-- GRCh39
+#### GRCh39
 ```bash
 
 ```
-- GRCh38
+#### GRCh38
 
-- hg38
+#### hg38
 
-- CRCh37
+#### CRCh37
 
-- hg19
+#### hg19
 
-- hs37d5
+#### hs37d5
 
-- humanG1Kv37
+#### humanG1Kv37
 
-- b37
+#### b37
 
-- Human pangenome reference consortium
+#### Human pangenome reference consortium
 
-- 1000 Genome Project 30X high coverage (hg38)
+#### 1000 Genome Project 30X high coverage (hg38)
 
-- 1000 Genome Project Phase 3 (hg19)
+#### 1000 Genome Project Phase 3 (hg19)
 
-- HAPMAP3
+#### HAPMAP3
 
 
 ## 2 Gene Expression Omnibus (GEO)
