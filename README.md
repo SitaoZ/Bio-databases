@@ -83,6 +83,12 @@ $ perl update_blastdb.pl # 可以很方便的查看有哪些数据库支持下�
 $ nohup perl update_blastdb.pl --decompress nt &> update.log & # 后台下载，支持断点续传
 ```
 
+### 1.2.4 Entrez
+Entrez是NCBI收录基因信息的数据库，基因的信息来源于手动收录和自动整合NCBI's Reference Sequence project (RefSeq)和其他合作的数据库。
+Entrez 使用整数(integer)表示基因，ID唯一(PMID: 17148475)。现已经整合到NCBI Gene
+
+
+
 
 ### 1.3 UCSC
 加州大学圣克鲁兹分校基因组数据库
