@@ -206,7 +206,7 @@ $ fastq-dump SRR1013512
 
 [HBCtraining](https://github.com/hbctraining/Accessing_public_genomic_data/blob/master/lessons/downloading_from_SRA.md)
 
-SRA文件名转化为项目处理的样本名, rename.py
+SRA文件名转化为项目处理的样本名, rename.py (SRP173272)
 ```python
 import os
 import pandas as pd
