@@ -206,6 +206,30 @@ $ fastq-dump SRR1013512
 
 [HBCtraining](https://github.com/hbctraining/Accessing_public_genomic_data/blob/master/lessons/downloading_from_SRA.md)
 
+SRA文件名转化为项目处理的样本名, rename.py
+```python
+import os
+import pandas as pd
+
+df = pd.read_csv("SraRunTable.txt")
+df['Time'] = df.time.apply(lambda x : x.replace(" ", ""))
+df['New'] = df.treatment + "_" + df.Time
+#print(df)
+
+for name, group in df.groupby(by=['New']):
+    group = group.reset_index()
+    group['replicate'] = group.index + 1
+    group['ID'] = group.New +"_"+group.replicate.apply(lambda x: str(x))
+    #print(group)
+    for index, row in group.iterrows():
+        old_dir = row['Experiment']
+        new_dir = row['ID']
+        old_base = row['Run']
+        os.system(f'mv {old_dir} {new_dir} ') # SRX to treatment id
+        os.system(f'mv {new_dir}/{old_base}_1.fastq.gz {new_dir}/{new_dir}_1.fastq.gz') # basename rename
+
+```
+
 
 ## 4 dbSNP
 [dbSNP of NCBI](https://www.ncbi.nlm.nih.gov/snp/)
