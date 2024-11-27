@@ -88,6 +88,26 @@ Entrez是NCBI收录基因信息的数据库，基因的信息来源于手动收�
 Entrez 使用整数(integer)表示基因，ID唯一(PMID: 17148475)。现已经整合到NCBI Gene
 
 
+### 1.2.5 Refseq
+Reference Sequence (RefSeq) database [Refseq](https://pmc.ncbi.nlm.nih.gov/articles/PMC3965018/)
+该项目1999年开始，收录人的3446条转录本和蛋白序列。现在，NCBI 的 RefSeq 项目提供病毒、微生物、细胞器和真核生物的基因组、转录本和蛋白质的序列记录。
+RefSeq FTP 第 61 版于 2013 年 9 月发布，包含来自 29,000 多种生物体的 4,100 多万条序列记录
+```bash
+一个主要来源是已知的 known RefSeqs
+RefSeq 由国际核苷酸序列数据库联盟成员维护的公共序列数据的自动和手动处理生成
+NM
+NR
+NP
+NG
+```
+
+```bash
+另一个来源是 NCBI 的真核基因组注释流程，它提供了预测的模型 RefSeq 记录（带有 XM、XR 或 XP 接入前缀，以下称为“模型”RefSeq）。
+未知的，预测的，model RefSeqs
+XM
+XR
+XP
+```
 
 
 ### 1.3 UCSC
