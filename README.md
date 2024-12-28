@@ -51,7 +51,11 @@ https://www.ncbi.nlm.nih.gov/home/download/
   
 **GCA** for GenBank assemblies   
 **GCF** for RefSeq assemblies   
-GCA(or GCF) is followed by an underscore and 9 digits. GRCh38.p11 is GCA_000001405.26.      
+GCA(or GCF) is followed by an underscore and 9 digits. GRCh38.p11 is GCA_000001405.26.     
+
+- GCF vs GCA
+![image](https://github.com/user-attachments/assets/5a5fd372-8fe5-4596-b684-593696ac5d8d)
+
 
 ####  1.2.2 BioProject
 
