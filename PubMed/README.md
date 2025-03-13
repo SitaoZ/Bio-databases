@@ -11,6 +11,27 @@ PMID: 40078721
 
 ## BioPython 
 
+- 获取总数
+```bash
+def get_all_pmids(keyword, max_total=20000):
+    # 初始化搜索，获取总文献数和会话参数
+    handle = Entrez.esearch(
+        db="pubmed",
+        term=keyword,
+        retmax=0,          # 不返回具体ID，仅获取总数
+        usehistory="y"      # 启用历史会话
+    )
+    result = Entrez.read(handle)
+    total = int(result["Count"]) # 总数
+    webenv = result["WebEnv"]
+    query_key = result["QueryKey"]
+    print(f"总文献数: {total}")
+
+# 示例：搜索全文中包含"CRISPR"的文献
+get_all_pmids("CRISPR", max_total=20000)
+```
+
+- 获取PMID
 ```python
 from Bio import Entrez
 import time
