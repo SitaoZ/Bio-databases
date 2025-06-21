@@ -204,7 +204,9 @@ $ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg38/Mills_and_10
 #### 1000 Genome Project 30X high coverage (hg38)
 
 #### 1000 Genome Project Phase 3 (hg19)
-
+```bash
+ 1000 Genomes Phase 3 v5 (1KGP3)
+```
 #### HAPMAP3
 
 
