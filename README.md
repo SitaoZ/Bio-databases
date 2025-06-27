@@ -183,7 +183,7 @@ $ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg38/Mills_and_10
 
 #### 1.6.2 GRCh39
 ```bash
-
+推迟发布
 ```
 #### 1.6.3 GRCh38
 [hg38](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.26/)
@@ -210,14 +210,18 @@ Date                         Feb 27, 2009
 ```
 
 #### 1.6.5 hs37d5
-The human genome reference integrating GRCh37 and the decoy sequences is termed hs37d5
+The human genome reference integrating `GRCh37` and the `decoy sequences` is termed **hs37d5**
 
+#### 1.6.6 b37
+**Broad Institute** 以 GRCh37为基础创建的一个参考基因组. 该基因组被称为**b37**(Homo_sapiens_assembly19.fasta, MD5sum: 886ba1559393f75872c1cf459eb57f2d)
 
-#### 1.6.6 humanG1Kv37
-
-#### 1.6.7 b37
+#### 1.6.7 humanG1Kv37
+The **humanG1Kv37** (human_g1k_v37.fasta, MD5sum: 0ce84c872fc0072a885926823dcd0338) 和 **b37**相同, 但前者不包含人类疱疹病毒4型1（名为NC007605_）的诱饵序列。该参考序列源自千人基因组计划。
 
 #### 1.6.8 Human pangenome reference consortium
+人类泛基因组参考联盟 [HPRC](https://humanpangenome.org/) 是由美国国立卫生研究院 (NIH) 资助的项目，旨在吸引科学家和生物伦理学家参与创建代表全球人类基因组变异的人类泛基因组参考和资源。
+在创建泛基因组的过程中，HPRC 正在开发改进的基因组组装技术，以及利用泛基因组进行全面分析的下一代工具生态系统。
+数据下载地址[Download](https://data.humanpangenome.org/assemblies)
 
 #### 1.6.9 1000 Genome Project 30X high coverage (hg38)
 [1000 Genomes 30x on GRCh38](https://www.internationalgenome.org/data-portal/data-collection/30x-grch38)
@@ -235,9 +239,21 @@ The human genome reference integrating GRCh37 and the decoy sequences is termed 
 ```bash
  1000 Genomes Phase 3 (1KGP3)
 ```
-#### 1.6.11 HAPMAP3
+#### 1.6.11 HAPMAP 3
+[HapMap 3](https://www.sanger.ac.uk/data/hapmap-3/) 是国际 HapMap 项目的第三阶段。本阶段涵盖的 DNA 样本数量从第一阶段和第二阶段的 270 个增加到来自不同人群的 1,301 个。这是第三版草案。
 
-
+人群结构
+- ASW – African ancestry in Southwest USA
+- CEU – Utah residents with Northern and Western European ancestry from the CEPH collection
+- CHB – Han Chinese in Beijing, China
+- CHD – Chinese in Metropolitan Denver, Colorado
+- GIH – Gujarati Indians in Houston, Texas
+- JPT – Japanese in Tokyo, Japan
+- LWK – Luhya in Webuye, Kenya
+- MXL – Mexican ancestry in Los Angeles, California
+- MKK – Maasai in Kinyawa, Kenya
+- TSI – Toscani in Italia
+- YRI – Yoruba in Ibadan, Nigeria
 
 
 
