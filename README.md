@@ -175,39 +175,70 @@ $ wget ftp://gsapubftp-anonymous@ftp.broadinstitute.org/bundle/hg38/Mills_and_10
 
 ### 1.6 Human reference data
 
-#### CHM13
+#### 1.6.1 CHM13
 目前最新的T2T基因组
 - URL: https://github.com/marbl/CHM13
 - CONTENTS: chr1-22(CHM13),chrX(CHM13),chrY(NA24385),chrM(CHM13)
 - CITATION : Nurk, S., Koren, S., Rhie, A., Rautiainen, M., Bzikadze, A. V., Mikheenko, A., ... & Phillippy, A. M. (2022). The complete sequence of a human genome. Science, 376(6588), 44-53.
 
-#### GRCh39
+#### 1.6.2 GRCh39
 ```bash
 
 ```
-#### GRCh38
-
-#### hg38
-
-#### CRCh37
-
-#### hg19
-
-#### hs37d5
-
-#### humanG1Kv37
-
-#### b37
-
-#### Human pangenome reference consortium
-
-#### 1000 Genome Project 30X high coverage (hg38)
-
-#### 1000 Genome Project Phase 3 (hg19)
+#### 1.6.3 GRCh38
+[hg38](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.26/)
 ```bash
- 1000 Genomes Phase 3 v5 (1KGP3)
+NCBI RefSeq assembly         GCF_000001405.26 (replaced)
+Submitted GenBank assembly   GCA_000001405.15 (replaced)
+Taxon                        Homo sapiens (human)
+Synonym                      hg38
+Assembly type                haploid with alt loci
+Submitter                    Genome Reference Consortium
+Date                         Dec 17, 2013
 ```
-#### HAPMAP3
+
+#### 1.6.4 CRCh37
+[hg19](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.13/)
+```bash
+NCBI RefSeq assembly         GCF_000001405.13 (replaced)
+Submitted GenBank assembly   GCA_000001405.1 (replaced)
+Taxon                        Homo sapiens (human)
+Synonym                      hg19
+Assembly type                haploid with alt loci
+Submitter                    Genome Reference Consortium
+Date                         Feb 27, 2009
+```
+
+#### 1.6.5 hs37d5
+The human genome reference integrating GRCh37 and the decoy sequences is termed hs37d5
+
+
+#### 1.6.6 humanG1Kv37
+
+#### 1.6.7 b37
+
+#### 1.6.8 Human pangenome reference consortium
+
+#### 1.6.9 1000 Genome Project 30X high coverage (hg38)
+[1000 Genomes 30x on GRCh38](https://www.internationalgenome.org/data-portal/data-collection/30x-grch38)
+
+-  执行者： New York Genome Center (NYGC)
+-  样本数：3202
+-  深度： 30X
+
+#### 1.6.10 1000 Genome Phase 3 (hg19)
+[1KGP3](https://www.internationalgenome.org/data-portal/data-collection/phase-3)
+项目信息:  
+- The [**GRCh37**](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/) reference genome used in this analysis
+- Files listing the [samples](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/) used in the work (.ped and panel)
+- [VCF](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/) files containing the variants detected and additional genotype VCF files listing genotypes for each individual at each variant location (provided per chromosome due to file size)
+```bash
+ 1000 Genomes Phase 3 (1KGP3)
+```
+#### 1.6.11 HAPMAP3
+
+
+
 
 
 ## 2 Gene Expression Omnibus (GEO)
