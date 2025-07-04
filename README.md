@@ -255,7 +255,35 @@ The **humanG1Kv37** (human_g1k_v37.fasta, MD5sum: 0ce84c872fc0072a885926823dcd03
 - TSI – Toscani in Italia
 - YRI – Yoruba in Ibadan, Nigeria
 
+### 1.7 Mouse reference database
 
+#### 1.7.1 mm10
+[Genome assembly GRCm38](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001635.20/)
+
+```bash
+NCBI RefSeq assembly          GCF_000001635.20 (replaced)
+Submitted GenBank assembly    GCA_000001635.2 (replaced)
+Taxon                         Mus musculus (house mouse)
+Strain                        C57BL/6J
+Synonym                       mm10
+Assembly type                 haploid with alt loci
+Submitter                     Genome Reference Consortium
+Date                          Jan 9, 2012
+```
+#### 1.7.2 mm39 
+[Genome assembly GRCm39](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001635.27/)
+
+```bash
+NCBI RefSeq assembly          GCF_000001635.27
+Submitted GenBank assembly    GCA_000001635.9
+Taxon                         Mus musculus (house mouse)
+Strain                        C57BL/6J
+Synonym                       mm39
+Assembly type                 haploid
+Submitter                     Genome Reference Consortium
+Date                          Jun 24, 2020
+
+```
 
 ## 2 Gene Expression Omnibus (GEO)
 ftp://ftp.ncbi.nlm.nih.gov/geo/
